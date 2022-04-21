@@ -53,7 +53,7 @@ function onError(error) {
         ? 'Pipe ' + port
         : 'Port ' + port;
 
-    // handle specific listen errors with friendly messages
+    // handle specific listen errors with friendly messages - changed by som
     switch (error.code) {
         case 'EACCES':
             console.error(bind + ' requires elevated privileges');
